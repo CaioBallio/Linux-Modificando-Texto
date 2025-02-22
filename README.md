@@ -7,14 +7,14 @@ Editor de texto Vi<br>
 
 <h2>Como usar</h2>
 <h3>Crie um arquivo de texto:</h3>
-No diretório home, abra o editor Vi: vi meu_arquivo.txt<br>
-Insira algum texto (por exemplo, "Testando uma estrutura de laço").<br>
-Salve e saia do Vi (:wq).<br>
+° No diretório home, abra o editor Vi: vi meu_arquivo.txt<br>
+° Insira algum texto (por exemplo, "Testando uma estrutura de laço").<br>
+° Salve e saia do Vi (:wq).<br>
 
 <h3>Execute o script:</h3>
-Salve o script Bash fornecido em um arquivo (por exemplo, modificador.sh).<br>
-Torne o script executável: chmod +x modificador.sh<br>
-Execute o script, fornecendo o caminho do diretório e o nome do arquivo: ./modificador.sh /home/seu_usuario meu_arquivo.txt<br>
+° Salve o script Bash fornecido em um arquivo (por exemplo, modificador.sh).<br>
+° Torne o script executável: chmod +x modificador.sh<br>
+° Execute o script, fornecendo o caminho do diretório e o nome do arquivo: ./modificador.sh /home/seu_usuario meu_arquivo.txt<br>
 
 <h2>Explicação do script</h2>
 <strong>1º Solicita o diretório:</strong> O script pede ao usuário que insira o caminho do diretório onde o arquivo está localizado.<br>
@@ -27,11 +27,13 @@ Execute o script, fornecendo o caminho do diretório e o nome do arquivo: ./modi
 
 <h2>Exemplo</h2>
 <h3>Conteúdo original do arquivo :</h3>
-![Captura de tela 2025-02-21 215543](https://github.com/user-attachments/assets/19f0f645-4c1b-4e63-a66f-70cda45c2a54)
+![Imagem do Código](https://github.com/user-attachments/assets/76832a9e-40ee-4250-95b2-fbb08c3c7f58)
+![Imagem do Código](https://github.com/user-attachments/assets/47fd3cfe-6a89-471b-838c-bb872e511aa9)
+
 
 
 <h3>Conteúdo modificado:</h3>
-![Captura de tela 2025-02-21 215623](https://github.com/user-attachments/assets/700ba611-5973-40cc-8810-4b0d2fc05985)
+![Resultado do Código](https://github.com/user-attachments/assets/700ba611-5973-40cc-8810-4b0d2fc05985)
 
 <br>Obrigado pela sua atenção!!
 
