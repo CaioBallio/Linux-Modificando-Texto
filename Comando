@@ -1,0 +1,29 @@
+#!/bin/bash
+clear; echo
+
+read -p "Dê o diretório: " caminho
+
+if [ -d "$caminho" ]; then
+  echo "Diretório encontrado!: $caminho"
+
+  read -p "Dê o nome do arquivo: " arquivo
+  caminhoarq="$caminho/$arquivo"
+
+  if [ -f "$caminhoarq" ] && [[ "$arquivo" == *.txt ]]; then
+    echo "Exibindo o conteúdo do arquivo: "
+    cat "$caminhoarq"
+
+    echo -e "\nModificando o texto: "
+    while IFS= read -r linha; do
+      palavras=($linha)
+      for palavra in $linha; do
+        printf "X%sX " "$palavra"
+      done
+      echo
+    done < "$caminhoarq"
+  else
+    echo "Arquivo não encontrado ou não é do tipo txt"
+  fi
+else
+  echo "Diretório não encontrado."
+fi
