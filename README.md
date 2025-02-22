@@ -27,10 +27,11 @@ Execute o script, fornecendo o caminho do diretório e o nome do arquivo: ./modi
 
 <h2>Exemplo</h2>
 <h3>Conteúdo original do arquivo :</h3>
-![Captura de tela 2025-02-21 215543](https://github.com/user-attachments/assets/947f32bd-c5fe-4c9d-924e-c170670ae4a8)![imagem_2025-02-21_215842713](https://github.com/user-attachments/assets/8fab8c20-0431-4622-b044-f47f4d648657)
+![Captura de tela 2025-02-21 215543](https://github.com/user-attachments/assets/19f0f645-4c1b-4e63-a66f-70cda45c2a54)
+
 
 <h3>Conteúdo modificado:</h3>
 ![Captura de tela 2025-02-21 215623](https://github.com/user-attachments/assets/700ba611-5973-40cc-8810-4b0d2fc05985)
 
-Obrigado pela sua atenção!!
+<br>Obrigado pela sua atenção!!
 
